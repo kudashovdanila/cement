@@ -1,0 +1,49 @@
+.about-company {
+  position: relative;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    padding: 50px 50px 44px 54px;
+    background: #FFFFFF;
+    box-shadow: 0px -129px 108px rgba(0, 0, 0, 0.13);
+    border-bottom: 50px solid #FF7200;
+    width: 100%;
+    top: -65px;
+    max-width: 1180px;
+    z-index: 5;
+  }
+
+  &__img {
+    object-fit: contain;
+  }
+
+  &__text {
+    margin-top: 20px;
+    max-width: 585px;
+  }
+
+  &__title {
+    font-size: 38px;
+    line-height: 36px;
+    color: #4D4D4D;
+    margin-bottom: 32px;
+  }
+
+  &__desc {
+    font-size: 18px;
+    line-height: 1.32;
+    margin-bottom: 50px;
+  }
+
+  &__btn {
+    padding: 19px 72px;
+  }
+
+  &__bg {
+    position: absolute;
+    top: 169px;
+    right: 245px;
+  }
+}
