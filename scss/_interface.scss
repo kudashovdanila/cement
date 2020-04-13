@@ -1,3 +1,7 @@
+html {
+  font-size: 10px;
+}
+
 body {
   @include reg;
   color: #5C5C5C;
@@ -14,16 +18,12 @@ h4,
 h5,
 h6 {
   margin: 0;
-  @include bold;
 }
 
-<<<<<<< HEAD
 p {
   margin: 0;
 }
 
-=======
->>>>>>> d5e7fe8b4275c6be8008a1c20f10e2316d6082fb
 button {
   cursor: pointer;
   border: none;
@@ -38,8 +38,7 @@ button {
 }
 
 .btn {
-  font-size: 29px;
-  line-height: 28px;
+  font-size: 2.9rem;
   color: #fff;
   background-color: #FF7200;
   @include bold;

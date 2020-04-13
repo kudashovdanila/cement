@@ -18,16 +18,16 @@
   }
 
   &__hero-title {
-    font-size: 95px;
-    line-height: 91px;
+    font-size: 9.5rem;
+    line-height: 9.1rem;
     margin: 0 0 30px;
     max-width: 1180px;
+    @include bold;
   }
 
   &__subtitle {
-    font-size: 43px;
-    line-height: 41px;
-    @include reg;
+    font-size: 4.3rem;
+    line-height: 4.1rem;
   }
 
   &__btn {
@@ -46,11 +46,12 @@
   }
 
   &__title-2 {
-    font-size: 51px;
-    line-height: 62px;
+    font-size: 5.1rem;
+    line-height: 6.2rem;
     letter-spacing: -0.01em;
     max-width: 520px;
     text-align: left;
+    @include bold;
   }
 
   &__item-3 {
@@ -59,9 +60,10 @@
   }
 
   &__title {
-    font-size: 140px;
-    line-height: 134px;
+    font-size: 14rem;
+    line-height: 13.4rem;
     max-width: 1180px;
+    @include bold;
   }
 
   &__item-4 {
