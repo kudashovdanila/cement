@@ -1,0 +1,32 @@
+.bonus {
+  padding-top: 135px;
+
+  &__content {
+    position: relative;
+  }
+
+  &__title {
+    font-size: 6.4rem;
+    line-height: 6.1rem;
+    text-align: center;
+    color: #FF790C;
+    @include bold;
+    margin-bottom: 80px;
+  }
+
+  &__banner {}
+
+  &__img-banner {
+    max-width: 100%;
+  }
+
+  &__bg {
+    @include bold;
+    font-size: 367px;
+    color: #EBEBEB;
+    position: absolute;
+    right: 800px;
+    top: -130px;
+    z-index: -1;
+  }
+}
