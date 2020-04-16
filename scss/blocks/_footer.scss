@@ -1,0 +1,57 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.78)),
+    url('../img/footer/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  height: 100vh;
+
+  &__content {}
+
+  &__phone {
+    display: inline-block;
+    font-size: 7rem;
+    line-height: 6.7rem;
+    @include bold;
+    color: #fff;
+    margin-bottom: 24px;
+  }
+
+  &__address {
+    font-size: 5.1rem;
+    line-height: 4.9rem;
+    margin-bottom: 80px;
+    font-style: normal;
+    @include bold;
+  }
+
+  &__btn {
+    padding: 23px 110px;
+  }
+
+  &__social {
+    margin-top: 80px;
+  }
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    display: block;
+    margin: 0 25px;
+    transition: all .2s;
+
+    &:hover {
+      margin-top: -2px;
+    }
+  }
+
+  &__img {}
+}

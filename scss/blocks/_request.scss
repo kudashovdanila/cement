@@ -1,0 +1,47 @@
+.request {
+  background: url(../img/request/bg.svg) no-repeat center -50px;
+  min-height: 530px;
+
+  @media (max-width: 1400px) {
+    background-size: contain;
+  }
+
+  &__content {
+    padding: 96px 53px 91px;
+    text-align: center;
+    box-shadow: 0px 0px 108px rgba(0, 0, 0, 0.13);
+    background-color: #fff;
+    transform: translateY(250px);
+  }
+
+  &__title {
+    font-size: 6.1rem;
+    line-height: 5.8rem;
+    color: #4C4C4C;
+    margin-bottom: 50px;
+
+    @media (max-width: 1400px) {
+      font-size: 5rem;
+      line-height: 1;
+    }
+  }
+
+  &__text {
+    font-size: 3.3rem;
+    line-height: 1;
+    color: #969696;
+    margin-bottom: 80px;
+
+    @media (max-width: 1400px) {
+      font-size: 2.5rem;
+    }
+
+    &_orange {
+      color: #FF7200;
+    }
+  }
+
+  &__btn {
+    padding: 21px 53px;
+  }
+}

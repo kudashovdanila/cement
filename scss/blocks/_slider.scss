@@ -23,17 +23,33 @@
     margin: 0 0 30px;
     max-width: 1180px;
     @include bold;
+
+    @media (max-width: 1400px) {
+      font-size: 7rem;
+      line-height: 1;
+      max-width: 1000px;
+    }
   }
 
   &__subtitle {
     font-size: 4.3rem;
     line-height: 4.1rem;
+
+    @media (max-width: 1400px) {
+      font-size: 3rem;
+      line-height: 1;
+    }
   }
 
   &__btn {
     padding: 22px 50px;
     transition: background-color .2s;
     margin-top: 80px;
+
+    @media (max-width: 1400px) {
+      margin-top: 40px;
+      padding: 15px 30px;
+    }
 
     &:hover {
       background-color: lighten(#FF7200, 3%);
@@ -52,6 +68,12 @@
     max-width: 520px;
     text-align: left;
     @include bold;
+
+    @media (max-width: 1400px) {
+      font-size: 4rem;
+      line-height: 1.5;
+      max-width: 420px;
+    }
   }
 
   &__item-3 {
@@ -64,6 +86,11 @@
     line-height: 13.4rem;
     max-width: 1180px;
     @include bold;
+
+    @media (max-width: 1400px) {
+      font-size: 10rem;
+      line-height: 1;
+    }
   }
 
   &__item-4 {
@@ -78,6 +105,9 @@
 }
 
 .hero-item-2 {
+  @media (max-width: 1400px) {
+    justify-content: center;
+  }
 
   &__content {
     display: flex;
@@ -85,9 +115,18 @@
     width: 100%;
     max-width: 1097px;
     justify-content: space-between;
+
+    @media (max-width: 1400px) {
+      justify-content: center;
+    }
   }
 
-  &__img {}
+  &__img {
+    @media (max-width: 1400px) {
+      max-width: 250px;
+      margin-right: 50px;
+    }
+  }
 }
 
 .slick-dots {

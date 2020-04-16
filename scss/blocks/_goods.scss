@@ -1,6 +1,10 @@
 .goods {
   margin-top: 654px;
 
+  @media (max-width: 1400px) {
+    margin-top: 580px;
+  }
+
   &__content {}
 
   &__title {
@@ -25,6 +29,9 @@
     transition: all .2s;
     min-height: 520px;
 
+
+
+
     &:hover {
       box-shadow: 0px 4px 108px rgba(0, 0, 0, 0.13);
     }
@@ -39,6 +46,7 @@
   }
 
   &__btn {
+    text-align: center;
     padding: 20px 61px;
     font-size: 2.1rem;
   }
