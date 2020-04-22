@@ -1,7 +1,9 @@
 .bonus {
   padding-top: 135px;
 
-
+  @media (max-width: 793px) {
+    padding-top: 100px;
+  }
 
   &__content {
     position: relative;

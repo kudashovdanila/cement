@@ -11,22 +11,39 @@
     border-bottom: 50px solid #FF7200;
 
     max-width: 1180px;
+
+    @media (max-width: 1003px) {
+      flex-direction: column-reverse;
+      max-width: none;
+      padding-top: 30px;
+    }
   }
 
   &__img-wrap {
     display: flex;
     align-items: center;
+
+    @media (max-width: 1003px) {
+      margin-top: 70px;
+    }
   }
 
   &__img {
     display: inline-block;
-
     width: 90%;
+
+    @media (max-width: 1003px) {
+      width: 100%;
+    }
   }
 
   &__text {
     margin-top: 20px;
     max-width: 585px;
+
+    @media (max-width: 1003px) {
+      max-width: none;
+    }
   }
 
   &__title {

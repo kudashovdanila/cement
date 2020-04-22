@@ -29,6 +29,10 @@
       line-height: 1;
       max-width: 1000px;
     }
+
+    @media (max-width: 793px) {
+      font-size: 6rem;
+    }
   }
 
   &__subtitle {
@@ -74,6 +78,10 @@
       line-height: 1.5;
       max-width: 420px;
     }
+
+    @media (max-width: 726px) {
+      text-align: center;
+    }
   }
 
   &__item-3 {
@@ -90,6 +98,10 @@
     @media (max-width: 1400px) {
       font-size: 10rem;
       line-height: 1;
+    }
+
+    @media (max-width: 623px) {
+      font-size: 8rem;
     }
   }
 
@@ -126,6 +138,11 @@
       max-width: 250px;
       margin-right: 50px;
     }
+
+    @media (max-width: 726px) {
+      max-width: 0;
+      margin-right: 0;
+    }
   }
 }
 
@@ -140,6 +157,10 @@
   font-size: 0;
   left: 50%;
   transform: translateX(-50%);
+
+  @media (max-width: 768px) {
+    z-index: 1;
+  }
 
   li {
     background: rgba(255, 255, 255, 0.4);
