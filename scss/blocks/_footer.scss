@@ -20,32 +20,58 @@
     @include bold;
     color: #fff;
     margin-bottom: 24px;
+
+    @media (max-width: 557px) {
+      font-size: 5rem;
+    }
+
+    @media (max-width: 398px) {
+      font-size: 4rem;
+    }
   }
 
   &__address {
     font-size: 5.1rem;
-    line-height: 4.9rem;
+    line-height: 1.2;
     margin-bottom: 80px;
     font-style: normal;
     @include bold;
+
+    @media (max-width: 557px) {
+      font-size: 5rem;
+      margin-bottom: 40px;
+    }
+
+    @media (max-width: 398px) {
+      font-size: 4rem;
+    }
   }
 
   &__btn {
+    display: inline-block;
     padding: 23px 110px;
+    margin-bottom: 80px;
+
+    @media (max-width: 557px) {
+      margin-bottom: 40px;
+    }
+
+    @media (max-width: 369px) {
+      padding: 23px 50px;
+    }
   }
 
-  &__social {
-    margin-top: 80px;
-  }
+  &__social {}
 }
 
 .footer-social {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  max-width: 430px;
+  margin: 0 auto;
 
   &__item {
     display: block;
-    margin: 0 25px;
     transition: all .2s;
 
     &:hover {
@@ -53,5 +79,9 @@
     }
   }
 
-  &__img {}
+  &__img {
+    @media (max-width: 358px) {
+      width: 60px;
+    }
+  }
 }

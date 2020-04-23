@@ -18,6 +18,10 @@
     font-size: 6.8rem;
     line-height: 6.5rem;
     margin-bottom: 73px;
+
+    @media (max-width: 472px) {
+      font-size: 4rem;
+    }
   }
 }
 

@@ -2,7 +2,7 @@
   padding-top: 135px;
 
   @media (max-width: 793px) {
-    padding-top: 100px;
+    padding-top: 50px;
   }
 
   &__content {
@@ -16,6 +16,15 @@
     color: #FF790C;
     @include bold;
     margin-bottom: 80px;
+
+    @media (max-width: 511px) {
+      font-size: 5rem;
+    }
+
+    @media (max-width: 410px) {
+      font-size: 3rem;
+      line-height: 1;
+    }
   }
 
   &__banner {}

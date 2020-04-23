@@ -17,6 +17,11 @@
       max-width: none;
       padding-top: 30px;
     }
+
+    @media (max-width: 427px) {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
   }
 
   &__img-wrap {
@@ -55,7 +60,7 @@
 
   &__desc {
     font-size: 1.8rem;
-    line-height: 1.32;
+    line-height: 1.4;
     margin-bottom: 50px;
 
     @media (max-width: 1400px) {
